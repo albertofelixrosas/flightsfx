@@ -1,0 +1,132 @@
+.date-picker > .arrow-button {
+    -fx-background-size: 60% 60%; /*  Can be `cover` or `100% 100%` ect. */
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; /* Put the icon in the center */
+    -fx-border-radius: 0 10 10 0;
+    -fx-background-radius: 0 10 10 0;
+}
+
+.combo-box-base {
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-color: transparent;
+}
+
+.date-picker .text-field {
+    -fx-background-radius: 10 0 0 10;
+}
+
+/*
+* {
+    -fx-primary-color: #007acc;
+    -fx-secondary-color: #4B6EAF;
+    -fx-very-dark-grey-color: #191919;
+    -fx-light-grey-color: #d1d1d1;
+
+    -fx-focus-color: -fx-secondary-color;
+}
+
+.date-picker:editable > .arrow-button > * {
+    -fx-opacity: 1;
+}
+
+.date-picker:editable > .arrow-button {
+
+}
+
+.date-picker > .arrow-button {
+    -fx-background-size: 60% 60%; Can be `cover` or `100% 100%` ect.
+    -fx-background-repeat: no-repeat;
+    -fx-background-position: center center; Put the icon in the center
+    -fx-border-radius: 0 10 10 0;
+    -fx-background-radius: 0 10 10 0;
+    -fx-background-color: #2D2A2E;
+}
+
+.date-picker .text-field {
+    -fx-control-inner-background: #191919;
+    -fx-background-radius: 10 0 0 10;
+}
+
+.combo-box-base {
+
+}
+
+#dateTimePickerDeparture {
+
+}
+
+.combo-box-base {
+    -fx-border-radius: 10 10 10 10;
+    -fx-background-radius: 10 10 10 10;
+    -fx-border-color: transparent;
+}
+
+cell-selection	applies if this TableView's selection model is cell selection
+row-selection	applies if this TableView's selection model is row selection
+
+
+.table-view {
+
+}
+
+.table-view:row-selection {
+    -fx-background-color: #a4a4a4;
+    -fx-text-fill: RED;
+}
+
+.table-view .cell {
+    -fx-opacity: 1;
+    -fx-background-color: RED;
+    -fx-text-fill: #a4a4a4;
+}
+
+.table-view .cell:selected {
+    -fx-opacity: 1;
+    -fx-background-color: -fx-primary-color;
+}
+
+.date-picker .arrow-button {
+    -fx-background-color: -fx-primary-color;
+    -fx-border-style: none;
+}
+.date-picker .arrow-button:hover {
+    -fx-background-color: -fx-secondary-color;
+}
+.date-picker .arrow-button .arrow {
+    -fx-background-color: #2D2A2E;
+}
+.date-picker .cell {
+    -fx-background-color: #2D2A2E;
+    -fx-text-fill: white;
+}
+.date-picker .cell:hover {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .cell:focused {
+    -fx-background-color: -fx-light-grey-color;
+}
+.date-picker .selected {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: #2D2A2E;
+}
+.date-picker .selected:focused {
+    -fx-background-color: -fx-primary-color;
+    -fx-text-fill: #2D2A2E;
+}
+.date-picker-popup  {
+    -fx-border-color: transparent;
+}
+.date-picker-popup .month-year-pane {
+    -fx-background-color: -fx-primary-color;
+}
+.date-picker-popup .month-year-pane .label {
+    -fx-text-fill: -fx-light-grey-color;
+}
+.date-picker-popup .week-number-cell {
+    -fx-text-fill: -fx-secondary-color;
+}
+.date-picker-popup .spinner .button .left-arrow,
+.date-picker-popup .spinner .button .right-arrow {
+    -fx-background-color: #2D2A2E;
+}
